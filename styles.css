@@ -6,19 +6,19 @@
    background-color: #010101;
 }
 
-.NavBar li a {
+.NavBar {
    display: block;
    color: white;
    padding: 8px 16px;
    text-decoration: none;
 }
 
-.Navbar li a.active {
+.Navbar.active {
    background-color: #1098F3;
    color: white;
 }
 
-.Navbar li a:hover:not(.active) {
+.Navbar:hover:not(.active) {
    background-color: #555;
    color: white;
 }
@@ -45,7 +45,7 @@ h1 {
    color: white;
 }
 
-ul {
+#Linklist ul {
    color: white;
 }
 
